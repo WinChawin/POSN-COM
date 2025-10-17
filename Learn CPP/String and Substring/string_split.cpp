@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <sstream>
+using namespace std;
+
+int main(){
+    string str, word;
+    getline(cin, str);
+    stringstream ss(str);
+    vector<string> words;
+    while (ss >> word){
+        words.push_back(word);
+    }
+    for (const auto& w : words){
+        cout << w << endl;
+    }
+    
+
+    return 0;
+}
+
+// input: I am Chawin Sumitra
+// output: I
+//         am
+//         Chawin
+//         Sumitra
