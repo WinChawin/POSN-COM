@@ -29,7 +29,7 @@ If `s` is not a repeated pattern, return `s` itself.
 | `abcabcabcabc` | `abc` | "abc" repeated 4 times |
 | `aaaa` | `a` | "a" repeated 4 times |
 | `abcdef` | `abcdef` | Not a repeated pattern → return itself |
-| `abaaba` | `abaaba` | Not a repeated pattern → return itself |
+| `abaabb` | `abaabb` | Not a repeated pattern → return itself |
 
 ### Test Cases
 
